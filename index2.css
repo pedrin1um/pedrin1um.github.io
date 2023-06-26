@@ -1,0 +1,249 @@
+body {
+    background: linear-gradient(to left, #5271a7, rgba(15, 25, 82, 0.514), #13294B);
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 9999;
+    text-decoration: none;
+    opacity: 0;
+    /* Inicia com opacidade 0 para estar oculta */
+    visibility: hidden;
+    /* Inicia como invisível */
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: gray;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+  
+  .fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu {
+    background: rgb(0, 0, 0, 0);
+    display: none;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    position: relative;
+    margin-right: 90px;
+    margin-left: 30px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+.navbar3 {
+    background-image: url('https://imagens.ebc.com.br/Bch83I00vQTBkfD_D6v5Ufzrq18=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/ministerio_da_justica.jpg?itok=MFXb8DRq');
+    background-repeat: no-repeat;
+}
+
+.just {
+    color: white !important;
+    width: 80px;
+    height: 40px !important;
+}
+
+.navbar1 {
+    border-radius: 0px 0px 40px 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.navbar2 {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin: 20px;
+}
+
+.navbar1 .linkctt {
+    display: inline-block;
+    margin-right: 10px;
+    /* Espaçamento à direita */
+}
+
+.navbar2 .just {
+    display: inline-block;
+    width: 650px;
+    /* Largura do espaçador */
+}
+
+.titulo {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: white;
+    justify-content: space-between;
+    display: inline-block !important;
+    margin-right: 10px !important;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.just {
+    height: 20px;
+}
+
+.linkctt {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h2,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white !important;
+}
+
+.mil {
+    border-radius: 20px;
+    margin-left: 100px;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.milmin {
+    float: right;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.fade-effect {
+    font-size: 50px;
+    animation: fade 4s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.7;
+    }
+}
+
+.fade-effect {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.fade-effect2 {
+    font-size: 40px;
+    animation: fade 4s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.7;
+    }
+}
+
+.fade-effect2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.miltex {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
+    font-size: large;
+}
+
+.miltex1 {
+    border-radius: 20px;
+    border: 2px;
+    padding: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.navbar4 {
+    margin: 150px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.navbar4 .just {
+    display: inline-block;
+    width: 450px;
+    /* Largura do espaçador */
+}
+
+.miltex2 {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: large;
+}

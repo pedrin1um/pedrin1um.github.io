@@ -1,0 +1,236 @@
+body {
+    background: linear-gradient(111.1deg, rgb(0, 0, 0) -4.8%, rgb(0, 40, 70) 82.7%, rgb(255, 175, 123) 97.2%);
+    }
+
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 9999;
+    text-decoration: none;
+    opacity: 0;
+    /* Inicia com opacidade 0 para estar oculta */
+    visibility: hidden;
+    /* Inicia como invisível */
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: gray;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+  
+  .fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu {
+    background: rgb(0, 0, 0, 0);
+    display: none;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    position: relative;
+    margin-right: 90px;
+    margin-left: 30px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.just {
+    color: white !important;
+    width: 80px;
+    height: 40px !important;
+}
+
+.navbar1 {
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 20px;
+}
+
+.navbar2 {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin: 20px;
+}
+
+.navbar1 .linkctt {
+    display: inline-block;
+    margin-right: 10px;
+    /* Espaçamento à direita */
+}
+
+.navbar2 .just {
+    display: inline-block;
+    width: 650px;
+    /* Largura do espaçador */
+}
+
+.titulo {
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white !important;
+}
+
+.fade-effect {
+    font-size: 50px;
+    animation: fade 4s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.7;
+    }
+}
+
+.fade-effect {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar4 {
+    margin: 150px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.navbar4 .just {
+    display: inline-block;
+    width: 450px;
+    /* Largura do espaçador */
+}
+
+.miltex2 {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: large;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.wile{
+    float: right;
+    margin-right: 70px;
+    border-radius: 20px;
+    width: 550px;
+    height: 500px;
+}
+.ma{
+    float: left;
+    margin-left: 90px;
+    border-radius: 20px;
+    width: 480px;
+    height: 500px;
+}
